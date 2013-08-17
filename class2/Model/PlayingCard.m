@@ -23,6 +23,7 @@
             score = 4;
         }
     }
+    return score;
 }
 
 - (NSString *)contents{

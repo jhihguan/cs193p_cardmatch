@@ -1,14 +1,13 @@
 //
-//  ViewController.h
+//  PlayingCardDeck.h
 //  class2
 //
 //  Created by jhihguan on 13/8/14.
 //  Copyright (c) 2013年 jhihguan. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Deck.h"
 
-@interface ViewController : UIViewController
-
+@interface PlayingCardDeck : Deck
 
 @end

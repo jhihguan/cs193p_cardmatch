@@ -17,4 +17,7 @@
 @property (readonly, nonatomic) NSTimeInterval duration;
 @property (nonatomic) int score;
 
+-(NSComparisonResult)compareScoreToGameResult:(GameResult *)otherResult;
+- (NSComparisonResult)compareEndDateToGameResul:(GameResult *)otherResult;
+- (NSComparisonResult)compareDurationToGameResult:(GameResult *)otherResult;
 @end
